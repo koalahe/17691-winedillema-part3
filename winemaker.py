@@ -70,12 +70,12 @@ def make_plot(prob_storm, model_sen, payout_matrix, prob_M,prob_high_sugar,prob_
 
 
 if __name__ == '__main__':
-    prob_storm = sys.argv[1]
-    model_sen = sys.argv[2]
-    prob_M = sys.argv[3]
-    prob_high_sugar = sys.argv[4]
-    prob_low_sugar = sys.argv[5]
-    prob_regular_sugar = sys.argv[6]
+    prob_storm = 0.5
+    model_sen = 0.8
+    prob_M = 0.1
+    prob_high_sugar = 0.1
+    prob_low_sugar = 0.6
+    prob_regular_sugar = 0.3
     payout_matrix = initialize() #initialize the matrix
     
     st.title('Expected Value for Winemaker')
